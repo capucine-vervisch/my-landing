@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	background-color: #D8D2C6;
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 0px 10px 30px rgba(0,0,0,0.9);
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	color: black;
+	transition: color 0.3s ease;
+	text-align: center;
+}
+
+a:hover {
+	color: white;
+}

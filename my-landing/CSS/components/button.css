@@ -1,0 +1,22 @@
+.btn-blue {
+	background-color: black;
+	padding: 15px 20px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.btn-blue:hover {
+	background-color: white;
+	color: black;
+}
+
+.text-inline li {
+	display: inline;
+}
+
+.text-inline i {
+	font-size: 60px;
+	text-align: center;
+}
